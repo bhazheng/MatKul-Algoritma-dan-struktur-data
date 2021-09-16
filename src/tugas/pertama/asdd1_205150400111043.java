@@ -1,4 +1,4 @@
-package tugas;
+package tugas.pertama;
 import java.util.*;
 public class asdd1_205150400111043 {
     public static void main(String[] args) {
