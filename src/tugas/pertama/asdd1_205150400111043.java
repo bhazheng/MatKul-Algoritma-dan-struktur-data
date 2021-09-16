@@ -1,5 +1,10 @@
 package tugas.pertama;
 import java.util.*;
+
+/* 
+COPYRIGHT Akbar Lucky Basuki 205150400111043
+*/
+
 public class asdd1_205150400111043 {
     public static void main(String[] args) {
         LinkedList<Integer> aa = new LinkedList<Integer>();

@@ -1,6 +1,8 @@
 package tugas.kedua;
 import java.util.*;
 
+/*copyright Akbar Lucky Basuki 205150400111043 */
+
 public class asdd_205150400111043 {
 
     public static void main(String[] args) {
