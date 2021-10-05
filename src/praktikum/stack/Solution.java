@@ -10,7 +10,6 @@ public class Solution {
         String[] angka = inp.split(" ");
         try {
             for (int index = 0; index < angka.length; index++) {
-                char c = angka[index].charAt(0);
                 int a = 0;
                 int b = 0;
                 if (angka[index].equals("/")){
