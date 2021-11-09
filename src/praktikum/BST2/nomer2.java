@@ -3,15 +3,15 @@ package praktikum.BST2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Node {
-    Node left, right;
+class Node1 {
+    Node1 left, right;
     int data;
-    Node(int data){
+    Node1(int data){
         this.data = data;
     }
 }
-class BST{
-    Node root;
+class BST1{
+    Node1 root;
     boolean isEmpty(){
         return root == null;
     }
@@ -19,9 +19,9 @@ class BST{
         root = insert(root, data);
     }
 
-    private Node insert(Node current, int data) {
+    private Node1 insert(Node1 current, int data) {
         if (current == null) {
-            return new Node(data);
+            return new Node1(data);
         }
         if (data < current.data) {
             current.left = insert(current.left, data);
@@ -35,7 +35,7 @@ class BST{
     
     int mystery(int newData){
         int sum = 0;
-        Node tmp = root;
+        Node1 tmp = root;
         while(true){
 
             if (tmp.data == newData){
@@ -75,7 +75,7 @@ class BST{
 public class nomer2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        BST t = new BST();
+        BST1 t = new BST1();
         String a = in.nextLine();
         String[] split = a.split(" ");
 
